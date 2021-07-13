@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="authors" content="Avinash Gummadi, Sai kumar Avu" />
+    <title>Contact</title>
+    <link rel="icon" href="./images/logo.jpg" type="image/x-icon" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    /> -->
+    <!-- jQuery -->
+    <!-- <script
+      src="https://code.jquery.com/jquery-2.2.4.min.js"
+      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script> -->
+
+    <!-- Bootstrap files (jQuery first, then Popper.js, then Bootstrap JS) -->
+    <!-- <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"
+      type="text/javascript"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script> -->
+    <!-- <style media="screen">
+      .modal-backdrop {
+        display: none !important;
+      }
+    </style> -->
+    <!--cart libaries-->
+    <!-- <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+      integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+      integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+      integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+      integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"
+    ></script>
+
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"
+    ></script> -->
+
+    <!--firebase database for login, signup-->
+    <!-- <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js"></script>
+    <script type="text/javascript" src="../javascript/login.js"></script> -->
+
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <!-- font -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      integrity="sha384-9uZxqYXGPZfYeOA9Noy+KiMbKqTEguwn6exm/6ahYYW/pXW23uMTDiXB+OgKb9zP"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
+    <!-- <link rel="stylesheet" rel="stylesheet" href="./font-awesome/css/font-awesome.min.css"> -->
+
+    <link rel="stylesheet" href="./css/index.css" type="text/css" />
+    <link rel="stylesheet" href="./css/contact.css" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-dark navbar-expand-md nav-1 fixed-top"
+        id="nav-1"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand logo-link" href="#">
+            <img
+              src="./images/Logo New0 copy.jpg"
+              class="logo img-fluid1"
+              height="100"
+              width="100"
+            /><b class="textlogo">The Farmers</b>
+          </a>
+          <button
+            class="navbar-toggler justify-content-right"
+            type="button"
+            data-toggle="collapse"
+            data-target="#Navbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="Navbar">
+            <ul class="navbar-nav flex">
+              <li class="nav-item active">
+                <a class="nav-link" href="./index.html">Shop</a>
+              </li>
+              <!-- <li class="nav-item">
+                            <a class="nav-link" href="#">Farm Bowl</a>
+                        </li> -->
+              <li class="nav-item">
+                <a class="nav-link" href="./homekits.html">Home Kits</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Suggestions</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle"
+                  data-toggle="dropdown"
+                  >Our Story
+                </a>
+                <ul class="dropdown-menu text-center dropdown-content">
+                  <li><a href="./about.html">About Us</a></li>
+                  <li><a href="our_farms.html">Our Frames</a></li>
+                  <li><a href="./contact.html">Contact Us</a></li>
+                </ul>
+                <!-- <a onclick="myFunction()" class="nav-link dropbtn">Dropdown</a>
+                            <div id="myDropdown" class="dropdown-content">
+                              <a href="#home">Home</a>
+                              <a href="#about">About</a>
+                              <a href="#contact">Contact</a>
+                            </div> -->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./cart.html"
+                  ><span class="fa fa-shopping-bag fa-lg"></span>
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  data-toggle="dropdown"
+                  ><span class="fa fa-user fa-lg"></span>
+                </a>
+                <ul
+                  class="dropdown-menu text-center dropdown-content user-icon"
+                >
+                  <li><a href="./about.html">Login</a></li>
+                  <li><a href="our_farms.html">Sign Up</a></li>
+                  <!-- <li><a href="./contact.html">Contact Us</a></li> -->
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- <section>
+      <div class="container mobile_container">
+        <div
+          class="modal fade"
+          id="cart"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+                <img src="../images/cart_secure.png" alt="cart secure label" />
+                <span class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </span>
+              </div>
+              <div class="modal-body">
+                <table class="show-cart table"></table>
+                <div>Total price: $<span class="total-cart"></span></div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-dismiss="modal"
+                >
+                  Close
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  onclick="checkout()"
+                >
+                  Check Out
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <section id="main">
+      <div class="container mobile_container">
+        <div class="contact_container">
+          <h3 class="form_hd">Contact Us</h3>
+          <p>
+            Our experts will reach out to you, based on your communication
+            preferences.
+          </p>
+          <div method="POST" class="form_container2">
+            <div class="name_div">
+              <label for="name">Your Name</label>
+              <input
+                type="text"
+                class="name"
+                name="name"
+                placeholder="Your name..."
+                required
+              />
+            </div>
+            <!-- <label for="lname">Last Name</label>
+            <input
+              type="text"
+              class="lname"
+              name="lastname"
+              placeholder="Your last name..."
+              required
+            /> -->
+            <div class="mail_div">
+              <label for="mail">Mail</label>
+              <input
+                type="email"
+                class="mail"
+                name="Mail"
+                value=""
+                placeholder="Enter your mail..."
+                required
+              />
+            </div>
+            <div>
+              <label for="phoneno">Phone Number</label>
+              <input
+                type="tel"
+                class="phoneno"
+                name="phonenumber"
+                placeholder="Enter your mobile number..."
+                required
+              />
+            </div>
+            <div class="radios">
+              <div>
+                <input type="radio" name="products" value="eatables" />Buy
+                Greens
+              </div>
+              <div>
+                <input type="radio" name="products" value="homekits" />Home Kits
+              </div>
+            </div>
+            <div class="textarea">
+              <label for="subject">Subject</label>
+              <textarea
+                class="subject"
+                name="subject"
+                placeholder="Write Your Requierements or Suggestions.."
+                style="height: 150px"
+                required
+              ></textarea>
+            </div>
+            <button type="button" onclick="Submit()" class="sub_btn">
+              Submit
+            </button>
+          </div>
+          <!--form ends-->
+          <div class="contact_img">
+            <h1>Let's have a small meet</h1>
+            <p>If you have questions. We have answers...</p>
+            <h3>CALL US</h3>
+            <a href="#">+91 1111 222 000 </a>
+            <h3>MAIL</h3>
+            <a href="#">the-farmers@gmail.com</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="footer" class="bg-dark text-center py-1">
+      <div id="main-footer">
+        <div id="social-media">
+          <div class="footerlogo">
+            <img src="./images/Logo New0 copy.jpg" class="imgfooter" />
+          </div>
+          <div id="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+        <div id="contents">
+          <div>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">The Farm</a></li>
+              <li><a href="#">Home Kits</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">Sitemap</a></li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li>Support</li>
+              <li>Blog</li>
+              <li>Press</li>
+              <li>Our Story</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li>Email: the_farmers@gmail.com</li>
+              <li>Mob: 987654321</li>
+              <li>Privacy Policy</li>
+              <li>Terms & conditions</li>
+              <li>Return Policy</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="copy-right">
+        <p>Copyright &copy2021, The-farmers</p>
+      </div>
+    </footer>
+    <!-- <div class="container mobile_container">
+      <div class="fix_me">
+        <a
+          href="https://wa.me/919052223007?text=Hi, we are glad to meet you"
+          target="_blank"
+          rel="noopener"
+          ><img src="../images/whatsapp_icon.png" alt="whatsapp"
+        /></a>
+      </div>
+    </div> -->
+    <!-- <script type="text/javascript" src="../javascript/cart.js"></script>
+    <script type="text/javascript" src="../javascript/index.js"></script> -->
+    <script type="text/javascript">
+      function pageRedirect() {
+        window.location.href = "./signup.html";
+      }
+    </script>
+    <script>
+      /* When the user clicks on the button,
+        toggle between hiding and showing the dropdown content */
+      function my_profile() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+
+      // Close the dropdown if the user clicks outside of it
+      var login_form = document.getElementById("id01");
+      window.onclick = function (event) {
+        if (!event.target.matches(".dropbtn")) {
+          var dropdowns = document.getElementsByClassName("profile_icon");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains("show")) {
+              openDropdown.classList.remove("show");
+            } else if (event.target == login_form) {
+              login_form.style.display = "none";
+            }
+          }
+        }
+      };
+    </script>
+    <script type="text/javascript">
+      // show and hide password with eye icon
+      $(".toggle-password").click(function () {
+        $(this).toggleClass("fa-eye fa-eye-slash");
+        var input = $($(this).attr("toggle"));
+        if (input.attr("type") == "password") {
+          input.attr("type", "text");
+        } else {
+          input.attr("type", "password");
+        }
+      });
+    </script>
+    <script src="./javascript/jquery.slim.min.js"></script>
+    <!-- <script src="./javascript/popper.min.js"></script> -->
+    <script src="./javascript/bootstrap.min.js"></script>
+    <!-- <script src="./javascript/scripts.js"></script> -->
+    <script src="./javascript/index.js" type="text/javascript"></script>
+  </body>
+</html>
